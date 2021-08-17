@@ -2,16 +2,18 @@ import React, {useState} from 'react';
 import './App.css';
 import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow} from "react-google-maps";
 import * as parksData from "./data/skateboard-parks.json";
+import * as ordersData from "./data/orders.json";
 import mapStyles from "./mapStyles";
 
 function Map() {
   const [selectedPark, setSelectedPark] = useState(null);
+  const [selectedOrder, setSelectedOrder] = useState(null);
+
   return (
   <GoogleMap 
-  defaultZoom={10} 
-  defaultCenter={{lat: 45.4, lng: -75.7}}
+  defaultZoom={4} 
+  defaultCenter={{lat: 38, lng: -95}}
   defaultOptions={{styles:mapStyles}}>
-
     {parksData.features.map(park => {
       return(
       <Marker 
@@ -30,6 +32,39 @@ function Map() {
       />);
       
     })}
+    {ordersData.items.map(order => {
+      return(
+      <Marker 
+      key={order._id} 
+      position={{
+        lat: parseInt(order.lat), 
+        lng: parseInt(order.lng)
+      }}
+      onClick={() => {
+        setSelectedOrder(order);
+      }}
+      icon={{
+        url: "./skateboarding.svg",
+        scaledSize: new window.google.maps.Size(25,25)
+      }}
+      />);
+    })}
+
+{selectedOrder && (
+      <InfoWindow
+      onCloseClick={() => {setSelectedOrder(null)}}
+      position={{
+        lat: parseInt(selectedOrder.lat),
+        lng: parseInt(selectedOrder.lng)
+      }}
+      >
+        <div className="info-window">
+        <h2>order ID: {selectedOrder.order_id}</h2>
+        <h2>deal ID: {selectedOrder.deal_id}</h2>
+        </div>
+ 
+      </InfoWindow>
+)} 
 
 {selectedPark && (
       
