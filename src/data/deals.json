@@ -1,0 +1,1448 @@
+{"items": [
+{
+	"_id" : "611587282eb8ff23731a9d02",
+	"dealId" : "50335",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d03",
+	"dealId" : "48528",
+	"dealStatus" : "Active",
+	"title" : "Boutique Plaid & Fringe Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d04",
+	"dealId" : "46721",
+	"dealStatus" : "Active",
+	"title" : "Chelsea Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d05",
+	"dealId" : "47505",
+	"dealStatus" : "Active",
+	"title" : "Christmas Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "6.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d06",
+	"dealId" : "48519",
+	"dealStatus" : "Cancelled",
+	"title" : "Metallic Flash Tattoos",
+	"primaryCategory" : "Tattoos",
+	"price" : "6.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d07",
+	"dealId" : "48521",
+	"dealStatus" : "Active",
+	"title" : "Deluxe Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d08",
+	"dealId" : "48470",
+	"dealStatus" : "Active",
+	"title" : "Hammered Silver Cross Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d09",
+	"dealId" : "50921",
+	"dealStatus" : "Active",
+	"title" : "Inspirational & Cross Charm Bangles",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0a",
+	"dealId" : "52182",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0b",
+	"dealId" : "48117",
+	"dealStatus" : "Active",
+	"title" : "Tess Cable Kint Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0c",
+	"dealId" : "46724",
+	"dealStatus" : "Active",
+	"title" : "Olivia Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0d",
+	"dealId" : "54282",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0e",
+	"dealId" : "53732",
+	"dealStatus" : "Active",
+	"title" : "Hammered Silver Cross Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d0f",
+	"dealId" : "54885",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d10",
+	"dealId" : "54884",
+	"dealStatus" : "Active",
+	"title" : "Deluxe Houndstooth Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d11",
+	"dealId" : "55676",
+	"dealStatus" : "Active",
+	"title" : "Bristol Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d12",
+	"dealId" : "54947",
+	"dealStatus" : "Active",
+	"title" : "Tess Cable Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d13",
+	"dealId" : "58072",
+	"dealStatus" : "Active",
+	"title" : "Silver Hammered Cross Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d14",
+	"dealId" : "56660",
+	"dealStatus" : "Active",
+	"title" : "Delicate Silver Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d15",
+	"dealId" : "56661",
+	"dealStatus" : "Active",
+	"title" : "Silver Hammered Cross Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "1.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d16",
+	"dealId" : "61016",
+	"dealStatus" : "Active",
+	"title" : "Winter Scarf Blowout Sale",
+	"primaryCategory" : "Scarves",
+	"price" : "5.99",
+	"shipping" : "3.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d17",
+	"dealId" : "60168",
+	"dealStatus" : "Active",
+	"title" : "Wire Wrapped Stone Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "6.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d18",
+	"dealId" : "60257",
+	"dealStatus" : "Active",
+	"title" : "Leopard Print Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d19",
+	"dealId" : "61481",
+	"dealStatus" : "Active",
+	"title" : "Olivia Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1a",
+	"dealId" : "61026",
+	"dealStatus" : "Active",
+	"title" : "Matte Black Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1b",
+	"dealId" : "60672",
+	"dealStatus" : "Active",
+	"title" : "Druzy and Feather Layered Necklace",
+	"primaryCategory" : "Necklaces",
+	"price" : "9.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1c",
+	"dealId" : "62485",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1d",
+	"dealId" : "61482",
+	"dealStatus" : "Active",
+	"title" : "Trendy Sunglasses Blowout Sale",
+	"primaryCategory" : "Sunglasses",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1e",
+	"dealId" : "60821",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "1.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d1f",
+	"dealId" : "65255",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Antique Key Layering Necklaces",
+	"primaryCategory" : "Necklaces",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d20",
+	"dealId" : "61030",
+	"dealStatus" : "Active",
+	"title" : "Moroccan Inspired Spring Statement Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d21",
+	"dealId" : "65155",
+	"dealStatus" : "Active",
+	"title" : "Boutique Stone Layering Necklaces - 4 New Styles",
+	"primaryCategory" : "Necklaces",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d22",
+	"dealId" : "64079",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d23",
+	"dealId" : "67125",
+	"dealStatus" : "Active",
+	"title" : "Starfish Cuff Bracelet",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d24",
+	"dealId" : "64547",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d25",
+	"dealId" : "64967",
+	"dealStatus" : "Active",
+	"title" : "Nautical Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d26",
+	"dealId" : "63149",
+	"dealStatus" : "Active",
+	"title" : "Wire Wrapped Stone Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d27",
+	"dealId" : "65254",
+	"dealStatus" : "Active",
+	"title" : "A Boutique Favorite - Kimball Tassel Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d28",
+	"dealId" : "68113",
+	"dealStatus" : "Active",
+	"title" : "Boutique Blowout Sale - Over 30 Styles!",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d29",
+	"dealId" : "68649",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d2a",
+	"dealId" : "68653",
+	"dealStatus" : "Active",
+	"title" : "Moroccan Inspired Spring Statement Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d2b",
+	"dealId" : "68651",
+	"dealStatus" : "Active",
+	"title" : "Colorful Mirrored Aviator Sunglasses",
+	"primaryCategory" : "Sunglasses",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d2c",
+	"dealId" : "78682",
+	"dealStatus" : "Active",
+	"title" : "Boutique Tassel Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d2d",
+	"dealId" : "68654",
+	"dealStatus" : "Active",
+	"title" : "Rustic Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d2e",
+	"dealId" : "70100",
+	"dealStatus" : "Active",
+	"title" : "Nautical Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d2f",
+	"dealId" : "70105",
+	"dealStatus" : "Active",
+	"title" : "Pastel Gemstone Stud Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d30",
+	"dealId" : "80018",
+	"dealStatus" : "Active",
+	"title" : "Spring Lace Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d31",
+	"dealId" : "63088",
+	"dealStatus" : "Active",
+	"title" : "Leopard Print Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d32",
+	"dealId" : "80855",
+	"dealStatus" : "Active",
+	"title" : "Rose Print Beach Totes",
+	"primaryCategory" : "Handbags",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d33",
+	"dealId" : "80860",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings - 9 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d34",
+	"dealId" : "80859",
+	"dealStatus" : "Active",
+	"title" : "Floral Print Fringe Kimono - 3 Prints!",
+	"primaryCategory" : "Clothing",
+	"price" : "16.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d35",
+	"dealId" : "68650",
+	"dealStatus" : "Active",
+	"title" : "Starfish Cuff Bracelet",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d36",
+	"dealId" : "82285",
+	"dealStatus" : "Active",
+	"title" : "Boutique Blow Out Sale -25 Choices!",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d37",
+	"dealId" : "81630",
+	"dealStatus" : "Active",
+	"title" : "Moroccan Inspired Spring Statement Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d38",
+	"dealId" : "81626",
+	"dealStatus" : "Active",
+	"title" : "Trendy Boutique Sunglasses",
+	"primaryCategory" : "Sunglasses",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d39",
+	"dealId" : "80380",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d3a",
+	"dealId" : "82399",
+	"dealStatus" : "Cancelled",
+	"title" : "Boutique Tassel Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d3b",
+	"dealId" : "85121",
+	"dealStatus" : "Active",
+	"title" : "Boutique Beach Totes",
+	"primaryCategory" : "Handbags",
+	"price" : "12.99",
+	"shipping" : "3.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d3c",
+	"dealId" : "85262",
+	"dealStatus" : "Active",
+	"title" : "Chelsea Square Tassel Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d3d",
+	"dealId" : "85013",
+	"dealStatus" : "Active",
+	"title" : "Lace Infinity Scarves - 3 Colors!",
+	"primaryCategory" : "Scarves",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d3e",
+	"dealId" : "85005",
+	"dealStatus" : "Active",
+	"title" : "Nautical Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d3f",
+	"dealId" : "86080",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d40",
+	"dealId" : "85006",
+	"dealStatus" : "Active",
+	"title" : "Boutique Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d41",
+	"dealId" : "87896",
+	"dealStatus" : "Active",
+	"title" : "Modern Pave Choker Necklace Set",
+	"primaryCategory" : "Necklaces",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d42",
+	"dealId" : "88461",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d43",
+	"dealId" : "87602",
+	"dealStatus" : "Active",
+	"title" : "Boutique Tassel Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d44",
+	"dealId" : "86935",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d45",
+	"dealId" : "89606",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Hidden Message Cuff",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d46",
+	"dealId" : "89678",
+	"dealStatus" : "Active",
+	"title" : "Lace Infinity Scarves - 3 Colors!",
+	"primaryCategory" : "Scarves",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d47",
+	"dealId" : "90068",
+	"dealStatus" : "Active",
+	"title" : "Matte Black Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d48",
+	"dealId" : "89868",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d49",
+	"dealId" : "90073",
+	"dealStatus" : "Active",
+	"title" : "Boutique Jewelry Blowout Sale",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4a",
+	"dealId" : "90067",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4b",
+	"dealId" : "92121",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4c",
+	"dealId" : "92126",
+	"dealStatus" : "Active",
+	"title" : "Spring Scarf Blowout Sale - 6 Styles!",
+	"primaryCategory" : "Scarves",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4d",
+	"dealId" : "93000",
+	"dealStatus" : "Active",
+	"title" : "Starfish Cuff Bracelet",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4e",
+	"dealId" : "92617",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Hidden Message Cuff",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d4f",
+	"dealId" : "90902",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d50",
+	"dealId" : "94301",
+	"dealStatus" : "Active",
+	"title" : "Elise Gemstone & Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d51",
+	"dealId" : "94299",
+	"dealStatus" : "Active",
+	"title" : "Boutique Painted Filigree Earrings - 2 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d52",
+	"dealId" : "94297",
+	"dealStatus" : "Active",
+	"title" : "Delicate Gold Earrings - 11 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d53",
+	"dealId" : "94298",
+	"dealStatus" : "Active",
+	"title" : "Delicate Silver Earrings - 7 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d54",
+	"dealId" : "93152",
+	"dealStatus" : "Active",
+	"title" : "RUSTIC INSPIRATIONAL CROSS & CHARM BRACELETS",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d55",
+	"dealId" : "95178",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d56",
+	"dealId" : "98928",
+	"dealStatus" : "Active",
+	"title" : "Vintage Inspired Boutique Earrings - 14 Styles",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d57",
+	"dealId" : "98922",
+	"dealStatus" : "Active",
+	"title" : "Rustic Tribal Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d58",
+	"dealId" : "101377",
+	"dealStatus" : "Active",
+	"title" : "Boho Turquoise Cuffs & Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d59",
+	"dealId" : "93153",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5a",
+	"dealId" : "92609",
+	"dealStatus" : "Active",
+	"title" : "Retro & Aviator Style Sunglasses - 3 Styles!",
+	"primaryCategory" : "Sunglasses",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5b",
+	"dealId" : "101816",
+	"dealStatus" : "Active",
+	"title" : "Boutique Pearl or Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5c",
+	"dealId" : "102427",
+	"dealStatus" : "Active",
+	"title" : "Boho Feather Necklace & Earrings Set",
+	"primaryCategory" : "Necklaces",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5d",
+	"dealId" : "102552",
+	"dealStatus" : "Active",
+	"title" : "Boutique Jewelry Blowout Sale",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5e",
+	"dealId" : "103961",
+	"dealStatus" : "Active",
+	"title" : "Vintage Inspired Boutique Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d5f",
+	"dealId" : "103960",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d60",
+	"dealId" : "105628",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d61",
+	"dealId" : "105630",
+	"dealStatus" : "Active",
+	"title" : "Rustic Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d62",
+	"dealId" : "106393",
+	"dealStatus" : "Active",
+	"title" : "Rustic Horse & Equestrian Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d63",
+	"dealId" : "105627",
+	"dealStatus" : "Active",
+	"title" : "Rustic Tribal Layering Bracelets - 10 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d64",
+	"dealId" : "108499",
+	"dealStatus" : "Active",
+	"title" : "Boutique Blowout Sale - 30 Styles!",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d65",
+	"dealId" : "106399",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d66",
+	"dealId" : "106398",
+	"dealStatus" : "Active",
+	"title" : "Nautical Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d67",
+	"dealId" : "109228",
+	"dealStatus" : "Active",
+	"title" : "Rustic Feather Necklace & Earrings Set",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d68",
+	"dealId" : "109230",
+	"dealStatus" : "Active",
+	"title" : "Gemstone & Pearl Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d69",
+	"dealId" : "109428",
+	"dealStatus" : "Active",
+	"title" : "Rustic Horse + Equestrian Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6a",
+	"dealId" : "108497",
+	"dealStatus" : "Active",
+	"title" : "Hammered Cross and Tassel Bracelet",
+	"primaryCategory" : "Bracelets",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6b",
+	"dealId" : "110757",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6c",
+	"dealId" : "109269",
+	"dealStatus" : "Active",
+	"title" : "Rustic Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6d",
+	"dealId" : "109918",
+	"dealStatus" : "Active",
+	"title" : "Country Pride Layering Bracelets - 10 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6e",
+	"dealId" : "113618",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d6f",
+	"dealId" : "105629",
+	"dealStatus" : "Cancelled",
+	"title" : "Retro & Aviator Style Sunglasses - 3 Styles!",
+	"primaryCategory" : "Sunglasses",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d70",
+	"dealId" : "113411",
+	"dealStatus" : "Active",
+	"title" : "Vintage Inspired Boutique Earrings - 14 Styles",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d71",
+	"dealId" : "113617",
+	"dealStatus" : "Active",
+	"title" : "Rustic Tribal Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d72",
+	"dealId" : "113400",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d73",
+	"dealId" : "117527",
+	"dealStatus" : "Active",
+	"title" : "Rustic & Tribal Layering Bracelets - 10 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d74",
+	"dealId" : "117530",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d75",
+	"dealId" : "117529",
+	"dealStatus" : "Active",
+	"title" : "Rustic Inspirational Cross & Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d76",
+	"dealId" : "119641",
+	"dealStatus" : "Active",
+	"title" : "Summer Jewelry Blowout Sale",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d77",
+	"dealId" : "119664",
+	"dealStatus" : "Active",
+	"title" : "Summer Scarf Blowout Sale",
+	"primaryCategory" : "Scarves",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d78",
+	"dealId" : "119284",
+	"dealStatus" : "Active",
+	"title" : "Olivia Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d79",
+	"dealId" : "119633",
+	"dealStatus" : "Active",
+	"title" : "Rustic Arrow & Bullet Earrings - 5 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d7a",
+	"dealId" : "117525",
+	"dealStatus" : "Active",
+	"title" : "Vintage Inspired Boutique Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d7b",
+	"dealId" : "119634",
+	"dealStatus" : "Active",
+	"title" : "Rustic Layering Bracelets - 16 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d7c",
+	"dealId" : "119289",
+	"dealStatus" : "Active",
+	"title" : "Tess Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d7d",
+	"dealId" : "119639",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d7e",
+	"dealId" : "114701",
+	"dealStatus" : "Active",
+	"title" : "Fall Honeycomb Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d7f",
+	"dealId" : "122360",
+	"dealStatus" : "Active",
+	"title" : "Gemstone Threader Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d80",
+	"dealId" : "117524",
+	"dealStatus" : "Active",
+	"title" : "Abbie Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d81",
+	"dealId" : "124185",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d82",
+	"dealId" : "117520",
+	"dealStatus" : "Active",
+	"title" : "Tess Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d83",
+	"dealId" : "114700",
+	"dealStatus" : "Active",
+	"title" : "Fall Knit Plaid Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d84",
+	"dealId" : "124186",
+	"dealStatus" : "Active",
+	"title" : "Rustic Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d85",
+	"dealId" : "124189",
+	"dealStatus" : "Active",
+	"title" : "Delicate Boho Filigree Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d86",
+	"dealId" : "129198",
+	"dealStatus" : "Active",
+	"title" : "Bristol Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d87",
+	"dealId" : "130892",
+	"dealStatus" : "Active",
+	"title" : "Chelsea Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d88",
+	"dealId" : "131499",
+	"dealStatus" : "Active",
+	"title" : "Boutique Jewelry Blowout Sale!",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d89",
+	"dealId" : "131489",
+	"dealStatus" : "Active",
+	"title" : "Lilly Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d8a",
+	"dealId" : "128835",
+	"dealStatus" : "Active",
+	"title" : "Abbie Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d8b",
+	"dealId" : "131493",
+	"dealStatus" : "Active",
+	"title" : "Tess Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d8c",
+	"dealId" : "129197",
+	"dealStatus" : "Cancelled",
+	"title" : "Ansley Pebbled Leather Wallet",
+	"primaryCategory" : "Handbags",
+	"price" : "14.99",
+	"shipping" : "3.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d8d",
+	"dealId" : "134054",
+	"dealStatus" : "Active",
+	"title" : "Lilly Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+
+{
+	"_id" : "611587282eb8ff23731a9d8e",
+	"dealId" : "136440",
+	"dealStatus" : "Active",
+	"title" : "Boutique Jewelry Blowout Sale!",
+	"primaryCategory" : "Fashion Combo",
+	"price" : "3.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d8f",
+	"dealId" : "136457",
+	"dealStatus" : "Active",
+	"title" : "Classic Velvet Choker",
+	"primaryCategory" : "Necklaces",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d90",
+	"dealId" : "136439",
+	"dealStatus" : "Active",
+	"title" : "Rustic Arrow & Bullet Earrings",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d91",
+	"dealId" : "133286",
+	"dealStatus" : "Active",
+	"title" : "Boutique Infinity Scarf Collection",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d92",
+	"dealId" : "136432",
+	"dealStatus" : "Active",
+	"title" : "Ponies & Pistols Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d93",
+	"dealId" : "136463",
+	"dealStatus" : "Active",
+	"title" : "Vintage Bullet Earrings - 4 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "5.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d94",
+	"dealId" : "136459",
+	"dealStatus" : "Active",
+	"title" : "Abbie Knit Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "6.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d95",
+	"dealId" : "123649",
+	"dealStatus" : "Active",
+	"title" : "Fall Plaid Infinity Scarves",
+	"primaryCategory" : "Scarves",
+	"price" : "11.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d96",
+	"dealId" : "136429",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Layering Bracelets - 3 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d97",
+	"dealId" : "141512",
+	"dealStatus" : "Active",
+	"title" : "Boutique Infinity Scarf Collection",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d98",
+	"dealId" : "146817",
+	"dealStatus" : "Active",
+	"title" : "Inspirational Layering Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d99",
+	"dealId" : "146819",
+	"dealStatus" : "Active",
+	"title" : "Rustic Wrap Bracelets - 3 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "8.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9a",
+	"dealId" : "136454",
+	"dealStatus" : "Active",
+	"title" : "Lilly Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9b",
+	"dealId" : "147154",
+	"dealStatus" : "Active",
+	"title" : "Boutique Filigree Earrings - 3 Styles!",
+	"primaryCategory" : "Earrings",
+	"price" : "4.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9c",
+	"dealId" : "132388",
+	"dealStatus" : "Active",
+	"title" : "Christmas Charm Bracelets",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9d",
+	"dealId" : "136452",
+	"dealStatus" : "Active",
+	"title" : "Deluxe Knit Scarves - 6 Styles!",
+	"primaryCategory" : "Scarves",
+	"price" : "12.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9e",
+	"dealId" : "139059",
+	"dealStatus" : "Active",
+	"title" : "Rustic Bracelet Collection - 9 Styles!",
+	"primaryCategory" : "Bracelets",
+	"price" : "7.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9d9f",
+	"dealId" : "139060",
+	"dealStatus" : "Active",
+	"title" : "Boutique Infinity Scarf Collection",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9da0",
+	"dealId" : "155174",
+	"dealStatus" : "Active",
+	"title" : "Lilly Knit Infinity Scarf",
+	"primaryCategory" : "Scarves",
+	"price" : "9.99",
+	"shipping" : "2.99"
+},
+{
+	"_id" : "611587282eb8ff23731a9da1",
+	"dealId" : "148955",
+	"dealStatus" : "Active",
+	"title" : "Trendy Winter Sunglasses - 5 Styles!",
+	"primaryCategory" : "Sunglasses",
+	"price" : "6.99",
+	"shipping" : "2.99"
+}]}

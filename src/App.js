@@ -1,38 +1,37 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow} from "react-google-maps";
-import * as parksData from "./data/skateboard-parks.json";
 import * as ordersData from "./data/orders.json";
 import mapStyles from "./mapStyles";
 
+async function getData() {
+  return fetch('https://localhost:3443/orders')
+  .then(data => data.json())
+}
+
 function Map() {
-  const [selectedPark, setSelectedPark] = useState(null);
   const [selectedOrder, setSelectedOrder] = useState(null);
+  const [ordersData, setOrdersData] = useState(null);
+
+  useEffect(() => {
+    let mounted = true;
+    getData()
+      .then(orders => {
+        if(mounted) {
+          console.log("items = ",orders);
+          setOrdersData(orders)
+        }
+      })
+    return () => mounted = false;
+  }, [])
 
   return (
   <GoogleMap 
   defaultZoom={4} 
   defaultCenter={{lat: 38, lng: -95}}
   defaultOptions={{styles:mapStyles}}>
-    {parksData.features.map(park => {
-      return(
-      <Marker 
-      key={park.properties.PARK_ID} 
-      position={{
-        lat: park.geometry.coordinates[1], 
-        lng: park.geometry.coordinates[0]
-      }}
-      onClick={() => {
-        setSelectedPark(park);
-      }}
-      icon={{
-        url: "./skateboarding.svg",
-        scaledSize: new window.google.maps.Size(25,25)
-      }}
-      />);
-      
-    })}
-    {ordersData.items.map(order => {
+    
+    {ordersData && ordersData.map(order => {  //make sure ordersData is there before mapping it
       return(
       <Marker 
       key={order._id} 
@@ -44,8 +43,8 @@ function Map() {
         setSelectedOrder(order);
       }}
       icon={{
-        url: "./skateboarding.svg",
-        scaledSize: new window.google.maps.Size(25,25)
+        url: "/shopping.svg",
+        scaledSize: new window.google.maps.Size(20,20)
       }}
       />);
     })}
@@ -65,23 +64,6 @@ function Map() {
  
       </InfoWindow>
 )} 
-
-{selectedPark && (
-      
-      <InfoWindow
-      onCloseClick={() => {setSelectedPark(null)}}
-      position={{
-        lat: selectedPark.geometry.coordinates[1],
-        lng: selectedPark.geometry.coordinates[0]
-      }}
-      >
-        <div className="info-window">
-        <h2>{selectedPark.properties.NAME}</h2>
-        <p>{selectedPark.properties.DESCRIPTIO}</p>
-        </div>
- 
-      </InfoWindow>
-    )} 
 
   </GoogleMap>
   );
