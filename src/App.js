@@ -1,32 +1,34 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow} from "react-google-maps";
-import * as ordersData from "./data/orders.json";
 import mapStyles from "./mapStyles";
 import { mapUrl } from './mapUrl';
 import Select from "react-select";
-
-async function getOrdersData() {
-  return fetch('https://localhost:3443/orders')
-  .then(data => data.json())
-}
 
 async function getDealsData() {
   return fetch('https://localhost:3443/deals')
   .then(data => data.json())
 }
 
+async function getOrdersData(category) {
+  let url = 'https://localhost:3443/orders';
+  if(category !== "all") {
+    url = 'https://localhost:3443/categories/' + category;
+  }
+  return fetch(url)
+  .then(data => data.json())
+}
+
 function Map() {
   const [selectedOrder, setSelectedOrder] = useState(null);
   const [ordersData, setOrdersData] = useState(null);
-  let [selectedCategory, setSelectedCategory] = useState("all");
-  const [categoryArray, setCategoryArray] = useState([{ value: "all", label: "all" }]);
+  const [categoryArray, setCategoryArray] = useState([{ value: "all", label: "All Categories" }]);
   const [dealsData, setDealsData] = useState(null);
   
 
   useEffect(() => {
     let mounted = true;
-    getOrdersData()
+    getOrdersData("all") //returns orders for deals of the selected category
       .then(orders => {
         if(mounted) {
           console.log("orders = ",orders);
@@ -43,42 +45,25 @@ function Map() {
         if(mounted) {
           console.log("deals = ",deals);
           setDealsData(deals);
-          const cArray = getCategoryArray(deals);
-          setCategoryArray(cArray);
+          const cArray = getCategoryArray(deals); 
+          setCategoryArray(cArray); //category array is used for dropdown menu options
         }
       })
     return () => mounted = false;
   }, []);
-
-  useEffect(() => {
-    let mounted = true;
-    getOrdersData()
-      .then(orders => {
-        if(mounted) {
-          console.log("orders = ",orders);
-          setOrdersData(orders);
-        }
-      })
-    return () => mounted = false;
-  }, []);
-
-
-  useEffect(() => {
-    setSelectedCategory(selectedCategory);
-  }, []);
-
 
   console.log("outside useEffect: categoryArray = ",categoryArray);
 
   function handleChange(s) {
-    selectedCategory = s.value;
-    console.log("new value = ", selectedCategory);
+    getOrdersData(s.value)
+      .then(orders => {
+        setOrdersData(orders);
+        console.log("orders = ",orders);
+      })
   }
 
   return (
     <div>
-    { console.log("inside return: categoryArray = ",categoryArray)}
-    { console.log("inside return: selectedCategory = ",selectedCategory)}
   
   <GoogleMap 
   defaultZoom={4} 
@@ -120,11 +105,12 @@ function Map() {
 )} 
 
   </GoogleMap>
-<div style={{color: "black", width:"30vw", height:"10vh", position:"absolute", left:"50px", top:"60px", zIndex:"200"}}>
-{categoryArray.length && (<Select 
-//value={selectedCategory} 
+<div style={{color: "black", width:"32vw", height:"10vh", position:"absolute", left:"50px", top:"60px", zIndex:"200"}}>
+{categoryArray.length && (
+<Select 
 onChange={e => handleChange(e)}
 options={categoryArray}
+placeholder="Select a Category"
 />)}
 </div>
 
@@ -154,7 +140,7 @@ function App() {
 
 function getCategoryArray(data) {
   let catArray = [];
-  let returnArray = [];
+  let returnArray = [{ value: "all", label: "All Categories" }]
   if(data) {
     for(let item of data) {
       if(!catArray.includes(item.primaryCategory)) {
