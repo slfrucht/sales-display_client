@@ -52,8 +52,6 @@ function Map() {
     return () => mounted = false;
   }, []);
 
-  console.log("outside useEffect: categoryArray = ",categoryArray);
-
   function handleChange(s) {
     getOrdersData(s.value)
       .then(orders => {
@@ -75,15 +73,15 @@ function Map() {
       <Marker 
       key={order._id} 
       position={{
-        lat: parseInt(order.lat), 
-        lng: parseInt(order.lng)
+        lat: parseFloat(order.y), 
+        lng: parseFloat(order.x)
       }}
       onClick={() => {
         setSelectedOrder(order);
       }}
       icon={{
         url: "/shopping.svg",
-        scaledSize: new window.google.maps.Size(20,20)
+        scaledSize: new window.google.maps.Size(10,10)
       }}
       />);
     })}
@@ -92,8 +90,8 @@ function Map() {
       <InfoWindow
       onCloseClick={() => {setSelectedOrder(null)}}
       position={{
-        lat: parseInt(selectedOrder.lat),
-        lng: parseInt(selectedOrder.lng)
+        lat: parseFloat(selectedOrder.y),
+        lng: parseFloat(selectedOrder.x)
       }}
       >
         <div className="info-window">
@@ -105,7 +103,7 @@ function Map() {
 )} 
 
   </GoogleMap>
-<div style={{color: "black", width:"32vw", height:"10vh", position:"absolute", left:"50px", top:"60px", zIndex:"200"}}>
+<div style={{color: "black", width:"28vw", height:"10vh", position:"absolute", left:"50px", top:"60px", zIndex:"200"}}>
 {categoryArray.length && (
 <Select 
 onChange={e => handleChange(e)}
