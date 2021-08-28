@@ -5,16 +5,22 @@ import mapStyles from "./mapStyles";
 import { mapUrl } from './mapUrl';
 import Select from "react-select";
 
+let maxOrder = 0; //bin with the most orders
+let selectedCategory = "all"; 
+
 async function getDealsData() {
   return fetch('https://localhost:3443/deals')
   .then(data => data.json())
 }
 
 async function getOrdersData(category) {
+  /*
   let url = 'https://localhost:3443/orders';
   if(category !== "all") {
     url = 'https://localhost:3443/categories/' + category;
   }
+  */
+  let url = 'https://localhost:3443/binCategories/' + category;
   return fetch(url)
   .then(data => data.json())
 }
@@ -24,14 +30,59 @@ function Map() {
   const [ordersData, setOrdersData] = useState(null);
   const [categoryArray, setCategoryArray] = useState([{ value: "all", label: "All Categories" }]);
   const [dealsData, setDealsData] = useState(null);
+
+  function getSvgMarker(numEntries) {
+    let mult = 20;
+
+    if(maxOrder) {
+      mult = numEntries/maxOrder;
+      mult = Math.floor(Math.pow(mult, 1/3) * 255);
+    }
+    console.log("in get marker numEntries = " + numEntries + ", maxOrder = " + maxOrder + ", mult = " + mult);
+    let red = mult;
+    let green = Math.floor(mult/2);
+    let blue = 255 - mult;
+    
+    let fill = rgbToHex(red,green,blue);
+    return {
+      path: "M-50 -50 50 -50 50 50 -50 50z",
+      fillColor: fill,
+      fillOpacity: .5,
+      strokeWeight: 0,
+      rotation: 0,
+      scale: .15
+      //anchor: new google.maps.Point(0, 0),
+    };
+
+  }
+
+  function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length === 1 ? "0" + hex : hex;
+  }
   
+  function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  }
+  function getMaxOrders(orders) {
+    let numOrders = 0;
+    for(let order of orders) {
+      const ne = parseInt(order.numEntries);
+      if(ne > numOrders) {
+        numOrders = ne;
+      }
+    }
+    return numOrders;
+  }
 
   useEffect(() => {
     let mounted = true;
     getOrdersData("all") //returns orders for deals of the selected category
       .then(orders => {
         if(mounted) {
-          console.log("orders = ",orders);
+          //console.log("orders = ",orders);
+          maxOrder = getMaxOrders(orders);
+          console.log("maxOrder = ",maxOrder);
           setOrdersData(orders);
         }
       })
@@ -55,9 +106,11 @@ function Map() {
   function handleChange(s) {
     getOrdersData(s.value)
       .then(orders => {
+        selectedCategory = s.value;
+        maxOrder = getMaxOrders(orders);
+        console.log("maxOrder = ",maxOrder);
         setOrdersData(orders);
-        console.log("orders = ",orders);
-      })
+    })
   }
 
   return (
@@ -69,7 +122,7 @@ function Map() {
   defaultOptions={{styles:mapStyles}}>
     
     {ordersData && ordersData.map(order => {  //make sure ordersData is there before mapping it
-      return(
+    return(
       <Marker 
       key={order._id} 
       position={{
@@ -79,10 +132,12 @@ function Map() {
       onClick={() => {
         setSelectedOrder(order);
       }}
-      icon={{
-        url: "/shopping.svg",
-        scaledSize: new window.google.maps.Size(10,10)
-      }}
+      icon={getSvgMarker(parseInt(order.numEntries))}
+//      icon={svgMarker}
+//      icon={{
+//        url: "/shopping.svg",
+//        scaledSize: new window.google.maps.Size(10,10)
+ //     }}
       />);
     })}
 
@@ -95,8 +150,8 @@ function Map() {
       }}
       >
         <div className="info-window">
-        <h2>order ID: {selectedOrder.order_id}</h2>
-        <h2>deal ID: {selectedOrder.deal_id}</h2>
+        <h2>Category: {selectedCategory}</h2>
+        <h2>Number of orders: {selectedOrder.numEntries}</h2>
         </div>
  
       </InfoWindow>
@@ -123,7 +178,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{width:"100vw", height:"100vh"}}>
+        <div style={{width:"90vw", height:"90vh"}}>
           <WrappedMap googleMapURL={mapUrl}
           loadingElement={<div style={{height:"100%"}}/>}
           containerElement={<div style={{height:"100%"}}/>}
