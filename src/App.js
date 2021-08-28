@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow} from "react-google-maps";
+import {GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow, Polygon} from "react-google-maps";
 import mapStyles from "./mapStyles";
 import { mapUrl } from './mapUrl';
 import Select from "react-select";
@@ -31,8 +31,22 @@ function Map() {
   const [categoryArray, setCategoryArray] = useState([{ value: "all", label: "All Categories" }]);
   const [dealsData, setDealsData] = useState(null);
 
-  function getSvgMarker(numEntries) {
+  
+  function getSvgColor(numEntries) {
     let mult = 20;
+    if(maxOrder) {
+      mult = numEntries/maxOrder;
+      mult = Math.floor(Math.pow(mult, 1/3) * 255);
+    }
+    console.log("in getSvgColor numEntries = " + numEntries + ", maxOrder = " + maxOrder + ", mult = " + mult);
+    let red = mult;
+    let green = Math.floor(mult/2);
+    let blue = 255 - mult;
+    
+    return rgbToHex(red,green,blue);
+  }
+    function getSvgMarker(numEntries) {
+      let mult = 20;
 
     if(maxOrder) {
       mult = numEntries/maxOrder;
@@ -122,7 +136,29 @@ function Map() {
   defaultOptions={{styles:mapStyles}}>
     
     {ordersData && ordersData.map(order => {  //make sure ordersData is there before mapping it
+    const polyColor = getSvgColor(parseInt(order.numEntries));
     return(
+      <Polygon 
+      path={[
+        {lat: parseFloat(order.y)-.5,lng: parseFloat(order.x)-.5},
+        {lat: parseFloat(order.y)-.5,lng: parseFloat(order.x) + .5},
+        {lat: parseFloat(order.y) + .5,lng: parseFloat(order.x) + .5},
+        {lat: parseFloat(order.y) + .5,lng: parseFloat(order.x)-.5},
+        {lat: parseFloat(order.y)-.5,lng: parseFloat(order.x)-.5}
+      ]}
+      key={order._id}
+      options={{
+        fillColor: polyColor,
+        fillOpacity: 0.4,
+        strokeColor: polyColor,
+        strokeOpacity: .5,
+        strokeWeight: 1
+    }}
+    onClick={() => {
+      setSelectedOrder(order);
+    }}
+      />
+      /*
       <Marker 
       key={order._id} 
       position={{
@@ -138,7 +174,9 @@ function Map() {
 //        url: "/shopping.svg",
 //        scaledSize: new window.google.maps.Size(10,10)
  //     }}
-      />);
+      />
+      */
+      );
     })}
 
 {selectedOrder && (
@@ -158,7 +196,7 @@ function Map() {
 )} 
 
   </GoogleMap>
-<div style={{color: "black", width:"28vw", height:"10vh", position:"absolute", left:"50px", top:"60px", zIndex:"200"}}>
+<div style={{color: "black", width:"28vw", height:"10vh", position:"absolute", left:"50px", top:"110px", zIndex:"200"}}>
 {categoryArray.length && (
 <Select 
 onChange={e => handleChange(e)}
